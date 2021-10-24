@@ -48,7 +48,7 @@ class TimeTableViewCell: UITableViewCell {
                         self.scheduleAlarm(date: safeDate)
                 }
             } else if let error = error {
-                print("error occured: \(error)")
+                print("error has occured: \(error)")
             }
         }
         
