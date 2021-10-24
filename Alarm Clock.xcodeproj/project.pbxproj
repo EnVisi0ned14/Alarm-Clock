@@ -13,6 +13,10 @@
 		4819272C2724664F00C70B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4819272A2724664F00C70B99 /* Main.storyboard */; };
 		4819272E2724665000C70B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4819272D2724665000C70B99 /* Assets.xcassets */; };
 		481927312724665000C70B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4819272F2724665000C70B99 /* LaunchScreen.storyboard */; };
+		481927392724672600C70B99 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481927382724672600C70B99 /* AddAlarmViewController.swift */; };
+		4819273E2724AABC00C70B99 /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819273C2724AABC00C70B99 /* TimeTableViewCell.swift */; };
+		4819273F2724AABC00C70B99 /* TimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4819273D2724AABC00C70B99 /* TimeTableViewCell.xib */; };
+		481927412724DD8500C70B99 /* CauseYouHadABadDay.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 481927402724DD8500C70B99 /* CauseYouHadABadDay.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4819272D2724665000C70B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		481927302724665000C70B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		481927322724665000C70B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481927382724672600C70B99 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		4819273C2724AABC00C70B99 /* TimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		4819273D2724AABC00C70B99 /* TimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeTableViewCell.xib; sourceTree = "<group>"; };
+		481927402724DD8500C70B99 /* CauseYouHadABadDay.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = CauseYouHadABadDay.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		481927232724664F00C70B99 /* Alarm Clock */ = {
 			isa = PBXGroup;
 			children = (
+				481927402724DD8500C70B99 /* CauseYouHadABadDay.aiff */,
 				481927242724664F00C70B99 /* AppDelegate.swift */,
 				481927262724664F00C70B99 /* SceneDelegate.swift */,
 				481927282724664F00C70B99 /* ViewController.swift */,
+				481927382724672600C70B99 /* AddAlarmViewController.swift */,
 				4819272A2724664F00C70B99 /* Main.storyboard */,
 				4819272D2724665000C70B99 /* Assets.xcassets */,
 				4819272F2724665000C70B99 /* LaunchScreen.storyboard */,
 				481927322724665000C70B99 /* Info.plist */,
+				4819273C2724AABC00C70B99 /* TimeTableViewCell.swift */,
+				4819273D2724AABC00C70B99 /* TimeTableViewCell.xib */,
 			);
 			path = "Alarm Clock";
 			sourceTree = "<group>";
@@ -124,6 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481927412724DD8500C70B99 /* CauseYouHadABadDay.aiff in Resources */,
+				4819273F2724AABC00C70B99 /* TimeTableViewCell.xib in Resources */,
 				481927312724665000C70B99 /* LaunchScreen.storyboard in Resources */,
 				4819272E2724665000C70B99 /* Assets.xcassets in Resources */,
 				4819272C2724664F00C70B99 /* Main.storyboard in Resources */,
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481927392724672600C70B99 /* AddAlarmViewController.swift in Sources */,
 				481927292724664F00C70B99 /* ViewController.swift in Sources */,
+				4819273E2724AABC00C70B99 /* TimeTableViewCell.swift in Sources */,
 				481927252724664F00C70B99 /* AppDelegate.swift in Sources */,
 				481927272724664F00C70B99 /* SceneDelegate.swift in Sources */,
 			);
